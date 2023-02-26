@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/contact', (req, res) => {
-	res.send('I am contactpage');
+	res.send('I am contact page !');
 });
 
 
