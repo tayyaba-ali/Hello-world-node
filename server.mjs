@@ -9,14 +9,14 @@ app.use(cors())
 
 
 app.get('/', (req, res) => {
-	res.send('Hello Node server!');
+	res.send({
+		cityName: 'karachi',
+	});
 });
 
 
 app.get('/contact', (req, res) => {
-    res.send({
-    cityName:"karachi"
-    });
+    res.send("hello");
 });
 
 
