@@ -1,0 +1,34 @@
+First make repo and clone it to your local 
+Then npm init enter enter enter 
+
+then npm i express(to install express)
+
+the node_modules will generate make .gitignore and write node_modules
+
+create a server.mjs file write the hello code from express js
+
+then install cors npm i cors and import it it also
+
+import cors from "cors"
+ 
+ also use its method app.use(cors())
+
+ then last make the change process.env.PORT || 3000 or 4000
+
+
+ #Open the railway cloud
+
+ create new project
+
+ add project and add the github rep
+
+ in the settings you will find the generate domain you can customize it according to your availability 
+
+ now add this api which you made on the axios you want to hit 
+
+ and when you make any changes in the local 
+
+ commit it to google 
+ then run the server again to see the changes
+
+ 
