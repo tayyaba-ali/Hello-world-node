@@ -10,7 +10,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
 	res.send({
-		cityName: 'karachi',
+		cityName: 'Karachi',
 	});
 });
 
