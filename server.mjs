@@ -9,9 +9,15 @@ app.use(cors())
 
 
 app.get('/', (req, res) => {
-    console.log('Hecllo Node server!' + req.ip);
-	res.send('Hello Node server!'+req.ip);
+	res.send('Hello Node server!');
 });
+
+
+app.get('/contact', (req, res) => {
+	res.send('I am contact page');
+});
+
+
 
 app.listen(port, () => {
 	console.log(`Example app listening on port ${port}`);
